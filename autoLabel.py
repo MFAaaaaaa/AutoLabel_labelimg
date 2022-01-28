@@ -7,17 +7,10 @@ import os
 from os import getcwd
 from xml.etree import ElementTree as ET
 
-# weightsPath = "./newDate/date.weights"
-# configPath = "./newDate/date.cfg"
-# labelsPath = "./newDate/date.names"
+weightsPath = "./weights/xxx.weights"
+configPath = "./cfg/xxx.cfg"
+labelsPath = "./names/xxx.names"
 
-# weightsPath = "./rotor/rotor_16000.weights"
-# configPath = "./rotor/rotor.cfg"
-# labelsPath = "./rotor/rotor.names"
-
-weightsPath = "./bingxian/bingxian.weights"
-configPath = "./bingxian/bingxian.cfg"
-labelsPath = "./bingxian/bingxian.names"
 
 # weightsPath = "./cfg/yolov3.weights"
 # configPath = "./cfg/yolov3.cfg"
