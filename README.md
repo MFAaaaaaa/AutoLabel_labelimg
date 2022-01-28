@@ -5,11 +5,11 @@ A semi-automatic labeling tool for image labels;利用opecncv中支持darkne框�
 
 2、修改autoLabel.py中的权重路径、待标注的图像文件夹路径、标注完成后的存储路径
 
-weightsPath = "./bingxian/bingxian.weights"
+weightsPath = "./weights/bingxian.weights"
 
-configPath = "./bingxian/bingxian.cfg"
+configPath = "./cfg/bingxian.cfg"
 
-labelsPath = "./bingxian/bingxian.names"
+labelsPath = "./names/bingxian.names"
 
 imgdir = "E:/Data/2021-10-15/JPEGS"  # 待标注的图片
 
