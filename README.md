@@ -28,8 +28,8 @@ A semi-automatic labeling tool for image labels;利用opecncv中支持darkne框�
 
    labelsPath = "./names/bingxian.names"
 
-   imgdir = "E:/Data/2021-10-15/JPEGS"  # 待标注的图片
+   imgdir = "E:/Data/2021-10-15/JPEGS"  # images to be labeled
 
-   tree.write('E:/Data/2021-10-15/Annotations/{0}.xml'.format(a)) # xml文件存储路径
+   tree.write('E:/Data/2021-10-15/Annotations/{0}.xml'.format(a)) # annotations storage path 
    
 3.After the labeling is completed, you can use labelConfirm.py to check the labeling effect.
